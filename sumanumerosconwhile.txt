@@ -1,0 +1,16 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class sumanumerosconwhile {
+    public static void main(String[] args) {
+
+        int sumaWhile = 0;
+
+        int n = 1;
+
+        while (n <= 10) {
+            sumaWhile += n;
+            n++;
+        }
+        System.out.println("La sumatoria con bucle WHILE es: " + sumaWhile);
+    }
+}

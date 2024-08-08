@@ -1,0 +1,12 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class sumadenumerosconfor {
+        public static void main(String[] args) {
+
+            int suma = 0;
+            for (int N = 1; N <= 10; N++) {
+                suma += N;
+            }
+            System.out.println("La suma es: " + suma);
+        }
+    }
